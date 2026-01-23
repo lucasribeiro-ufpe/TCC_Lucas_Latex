@@ -1,0 +1,48 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}\relax 
+\addvspace {-4\p@ }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\addvspace {-4\p@ }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\addvspace {-4\p@ }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\changetocdepth {3}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\addvspace {-4\p@ }
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{13}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivos}{13}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Geral}{13}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Específicos}{13}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}TESTE GLOSSÁRIO}{13}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Metodologia}{13}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Organização Textual}{13}{section.1.4}%
+\addvspace {-4\p@ }
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{FUNDAMENTAÇÃO TEÓRICA}}{14}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Assistentes virtuais de voz}{14}{section.2.1}%
+\contentsline {section}{\numberline {2.2}ola MC}{14}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Modelo de Linguagem em Grande Escala (LLMs)}{15}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}O modelo TinyLlama}{15}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}Reconhecimento Automático de Fala (Speech-to-Text - STT)}{15}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Caso 1: \textbf {$R_g$} com valores variados e \textbf {$R_{hc}$=0}}{15}{subsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.1}Título da seção quaternária}{15}{subsubsection.2.4.1.1}%
+\addvspace {-4\p@ }
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{DESENVOLVIMENTO DO TRABALHO}}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modelo de Silva}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}conclusões parciais}{17}{section.3.2}%
+\addvspace {-4\p@ }
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados}}{18}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Conclusões Parciais}{18}{section.4.1}%
+\addvspace {-4\p@ }
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusões}}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Trabalhos futuros}{19}{section.5.1}%
+\vspace {\cftbeforechapterskip }
+\addvspace {-4\p@ }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{20}{section*.19}%

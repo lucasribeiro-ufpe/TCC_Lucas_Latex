@@ -1,0 +1,105 @@
+% Universidade Federal de Pernambuco
+% Departamento de Engenharia Elétrica
+% Autora: Andrea Maria Cavalcanti   (andrea.marianogueira@ufpe.br)
+% Autor: Victor Rodrigo Leite       (victor.rodrigo@ufpe.br)  
+% Recife, 2022
+
+% Utilize o comando \section para criar uma seção
+% Utilize o comando \subsection para criar subseção
+
+%Fundamentação teórica 
+\chapter{FUNDAMENTAÇÃO TEÓRICA}
+\label{chap:fundamentacao}
+
+%cntrl + T comentar varias linhas e ctrl U descomentar
+%\begin{figure}[!ht]
+%\centering
+%\caption{Arranjo simulado.}
+%\label{fig:fig1}   
+%  \centering
+%  \includegraphics[width=100mm]{Imagem/CAP2/imagem_2024-03-14_142417035.png}\\[0.10cm]
+%Fonte: Adaptado de \cite{sunde1949earth}.
+%\end{figure}
+
+\section{Assistentes virtuais de voz}
+
+Assistentes virtuais de voz são sistemas computacionais que servem para auxilio e automatização de tarefas humanas, realizando por meio de reconhecimento de linguagem natural tarefas diversas, sejam elas profissionais, sociais, ou domésticas. Esses sistemas combinam técnicas de Inteligência Artificial, Processamento de Linguagem Natural (PLN) e Reconhecimento de Fala para interpretar intenções humanas, gerar respostas e comandos adequados \cite{russell2021}. Segundo  assistente faz o papel de um agente inteligente, como citador por Russel e Norvig (\cite{russell2021}, cap. 2), o fluxo de interação entre Agente e Ambiente é mostrado na \autoref{fig:figura1}. 
+
+\begin{figure}[!ht]
+\centering
+\caption{Fluxo de interação Agente - Ambiente.}
+\label{fig:figura1}   
+  \centering
+  \includegraphics[width=100mm]{Imagem/CAP2/fluxo_ambi_agente.png}\\[0.10cm]
+Fonte: Adaptado de \cite{russell2021}.
+\end{figure}
+
+Nos últimos anos, assistentes virtuais como \textit{Alexa, Google Assistant} e \textit{Siri} popularizaram a utilização de assistentes virtuais de voz para auxilio de tarefas humanas. Entretanto, estas tecnologias dependem estritamente de um ambiente conectado a internet para processamento em nuvem, o que resulta em preocupações relacionadas à privacidade do usuário, latência, dentre outros. Por outro lado, assistentes virtuais offline executados localmente em dispositivos embarcados apresentam-se como uma ferramenta viável para ambientes acadêmicos, industriais e domésticos, além de fornecer um custo computacional menor, visto que não se utiliza de nuvem compartilhada e de grandes servidores \cite{jurafsky2023}.  
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage{graphicx}
+%\begin{table}[]
+%\centering
+%\caption{Características gerais do terrômetro.}
+%\label{tab:TAB1}
+%\resizebox{\textwidth}{!}{%
+%\begin{tabular}{|cc|}
+%\hline
+%\multicolumn{2}{|c|}{\textbf{Especificações   Técnicas}} \\ \hline
+%\multicolumn{1}{|c|}{Escalas de medição de resistência} & 0 – 300 Ω \\ \hline
+%\multicolumn{1}{|c|}{Frequência de operação} & 25 kHz \\ \hline
+%\multicolumn{1}{|c|}{Corrente de medição} & 20 mA   regulada automaticamente \\ \hline
+%\multicolumn{1}{|c|}{\multirow{3}{*}{Compensação da componente indutiva}} & Mediante   banco de capacitores incorporado ao equipamento \\ \cline{2-2} 
+%\multicolumn{1}{|c|}{} & Capacidade   máxima: 4,2 µF \\ \cline{2-2} 
+%\multicolumn{1}{|c|}{} & Resolução:   10 nF \\ \hline
+%\multicolumn{1}{|c|}{Exatidão na medição da resistência} & ± 2,5\% do   valor medido ± 1 dígito \\ \hline
+%\multicolumn{1}{|c|}{Indicador} & Display   alfanumérico (LCD) \\ \hline
+%\multicolumn{1}{|c|}{\multirow{2}{*}{Resistência máxima das estacas auxiliares}} & 2000 Ω   para a estaca de corrente \\ \cline{2-2} 
+%\multicolumn{1}{|c|}{} & 2000 Ω para a estaca de tensão \\ \hline
+%\end{tabular}%
+%}
+%\end{table}
+
+
+
+\section{ola MC}
+KKKNJBHFGFGCGVCGC
+\section{Modelo de Linguagem em Grande Escala (LLMs)}
+Modelos de Linguagem em Grande escala, também conhecidos como \textit{Large Language Models (LLMs)} são modelos de  baseados em redes neurais profundas (\textit{Deep Learing}), treinados com uma vasta quantidade de palavras e dados, sendo capazes de aprender padrões e preverem suas próximas reações baseado em estatística o que os tornam focados em linguagem natural e capazes de adaptar-se ao usuário \cite{ibm_llm}. Os LLMs também são treináveis e possuem parâmetros configuráveis, e quando bem estruturados podem ser focados em uma tarefa específica, como automação residencial, por exemplo.
+
+\subsection{O modelo TinyLlama}
+O TinyLlama é uma modelo de linguagem compacto em código aberto com aproximadamente 1,1 a 2 bilhões de parâmetros e cerca de 3 trilhões de tokens, baseado na arquitetura Llama 2, e foi criado para ser embarcado em dispositivos com poucos recursos computacionais, como notebooks, celulares e até mesmo em sistemas embarcados como a \textit{Raspberry Pi} \cite{tinyllama2023}. Sua arquitetura simples faz com que o modelo se torne leve (aproximadamente 500MB) e capaz de ser funcional e fluído em dispositivos com Memória RAM (Random Access Memory ou Memória de Acesso Aleatório) de 2 GB ou superior. 
+
+\section{Reconhecimento Automático de Fala (Speech-to-Text - STT)}
+
+Segundo as informações disponíveis no manual, o equipamento é adequado para medições em que $R_g\leq 300 \Omega$ e  $R_{hc}\leq 2k\Omega$. A efetividade de tais condições é avaliada nesta seção. Exemplo de equação \ref{eq:eq1}
+    
+%\begin{equation}
+%\label{eq:eq1}
+%W(\lambda ,x) = \frac{\lambda ^2}{2L(x))}
+%\end{equation}
+
+\subsection{Caso 1: \textbf{$R_g$} com valores variados e \textbf{$R_{hc}$=0}}
+
+Neste Caso, é avaliada a capacidade de o equipamento medir a resistência de aterramento livre da influência da resistência da haste de corrente. 
+
+\subsubsection{Título da seção quaternária}
+
+Nas seções anteriores foram apresentados os resultados obtidos a partir de medições realizadas de modo controlado, em bancada, utilizando o terrômetro de alta frequência.
+
+\begin{equation}
+    R_{g}=\frac{\rho^2 }{2\cdot \alpha \cdot \pi(x)}
+\end{equation}
+
+% OBSERVAÇÕES GERAIS
+
+%   1) O Trabalho de Conclusão de Curso (TCC) deve ser um trabalho original:
+%   sem plágios. Caso for utilizado algum texto / figura / tabela / gráfico / etc de
+%   outro autor, a fonte DEVE ser informada;
+
+
+%   2) Tamanho das letras, espaçamento, estrutura do texto, equações, etc
+%   conforme trabalhos acadêmicos devem seguir obrigatoriamente a Norma
+%   ABNT NBR 14724 (2011). Ou seja, TCC´s - já na sua versão preliminar - que
+%   não estejam seguindo esta Norma ABNT não serão postos para a defesa;
+

@@ -1,0 +1,21 @@
+# Arquivos temporários do LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# PDFs gerados (opcional)
+*.pdf
+
+# Pastas temporárias
+_build/
+*.tmp

@@ -1,0 +1,30 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[{IBM} 2024]{ibm_llm}
+\abntrefinfo{{IBM}}{{IBM}}{2024}
+{{IBM}. \emph{O que são modelos de linguagem de grande escala (LLMs)?} 2024.
+Acesso em: 19 jan. 2026.
+Dispon{\'\i}vel em:
+  \url{https://www.ibm.com/br-pt/think/topics/large-language-models}.}
+
+\bibitem[Jurafsky e Martin 2023]{jurafsky2023}
+\abntrefinfo{Jurafsky e Martin}{JURAFSKY; MARTIN}{2023}
+{JURAFSKY, D.; MARTIN, J.~H. \emph{Speech and Language Processing}. 3. ed.
+  [S.l.]: Stanford University, 2023. Draft.}
+
+\bibitem[Russell e Norvig 2021]{russell2021}
+\abntrefinfo{Russell e Norvig}{RUSSELL; NORVIG}{2021}
+{RUSSELL, S.; NORVIG, P. \emph{Artificial Intelligence: A Modern Approach}. 4.
+  ed. Harlow: Pearson, 2021.}
+
+\bibitem[TinyLlama 2023]{tinyllama2023}
+\abntrefinfo{TinyLlama}{TINYLLAMA}{2023}
+{TINYLLAMA. \emph{TinyLlama: An Open-Source Small Language Model}. 2023.
+Disponível em: https://github.com/jzhang38/TinyLlama.}
+
+\end{thebibliography}

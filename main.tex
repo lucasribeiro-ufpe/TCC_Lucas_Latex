@@ -1,0 +1,194 @@
+% MODELO DE TCC lUCAS RIBEIRO DA ROCHA TENÓRIO ALVES
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% abnTeX2: Modelo de Trabalho Academico (tese de doutorado, dissertacao de
+% mestrado e trabalhos monograficos em geral) em conformidade com 
+% ABNT NBR 14724:2011: Informacao e documentacao - Trabalhos academicos -
+% Apresentacao
+
+
+\documentclass[
+	12pt,				
+	openright,			
+	oneside,		
+	a4paper,			
+	chapter=TITLE,		
+	section=TITLE,		
+	french,				
+	spanish,		
+	english,
+	brazil,
+    hidelinks,
+	]{abntex2}
+
+\input{packages}
+
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
+% \setlength\cftparskip{-2pt}
+% \setlength\cftbeforechapskip{0pt}
+
+
+\makeatletter
+\pretocmd{\chapter}{\addtocontents{toc}{\protect\addvspace{-4\p@}}}{}{}
+%%\pretocmd{\section}{\addtocontents{toc}{\protect\addvspace{5\p@}}}{}{}
+% \makeatother
+
+%AJUSTE DO SUMARIO (ESPAÇAMENTO)
+ 
+\renewcommand*\arraystretch{1.2} 
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\newglossarystyle{modsuper}{%
+  \glossarystyle{super}%
+  \renewcommand{\glsgroupskip}{}
+  
+ \renewenvironment{theglossary}%
+  {
+    \begin{longtable}
+        {L{0.2\textwidth}L{0.8\textwidth}}}%
+    {\end{longtable}
+  }%
+}
+
+\definecolor{blue}{RGB}{41,5,195}
+\definecolor{gray}{rgb}{.4,.4,.4}
+\definecolor{gray}{rgb}{.4,.4,.4}
+\definecolor{pblue}{rgb}{0.13,0.13,1}
+\definecolor{pgreen}{rgb}{0,0.5,0}
+\definecolor{pred}{rgb}{0.9,0,0}
+\definecolor{pgrey}{rgb}{0.46,0.45,0.48}
+\definecolor{lightgray}{rgb}{0.95, 0.95, 0.96}
+\definecolor{whitesmoke}{rgb}{0.96, 0.96, 0.96}
+\definecolor{javared}{rgb}{0.6,0,0} % for strings
+\definecolor{javagreen}{rgb}{0.25,0.5,0.35} % comments
+\definecolor{javapurple}{rgb}{0.5,0,0.35} % keywords
+\definecolor{javadocblue}{rgb}{0.25,0.35,0.75} % 
+\definecolor{meucinza}{rgb}{0.5, 0.5, 0.5}
+
+\input{custom}
+
+\setsecheadstyle{\ABNTEXsectionfont\bfseries\fontsize{13}{15}\selectfont}
+\setsubsecheadstyle{\ABNTEXsubsectionfont\bfseries\fontsize{13}{15}\selectfont}
+\setsubsubsecheadstyle{\ABNTEXsubsubsectionfont\itshape\fontsize{13}{15}\selectfont}
+\setlength{\afterchapskip}{1.0\baselineskip}  %%Espaçamento capitulo
+\setlength{\beforesecskip}{1.0\baselineskip}	%Espaçamento Seção
+\setlength{\aftersecskip}{1.0\baselineskip}		%Espaçamento Seção
+\setlength{\beforesubsecskip}{1.0\baselineskip} %Espaçamento sub Seção
+\setlength{\aftersubsecskip}{1.0\baselineskip}
+\makeindex
+
+
+
+\makenoidxglossaries
+\renewcommand*{\glsseeformat}[3][\seename]{\textit{#1}  
+\glsseelist{#2}}
+
+\renewcommand*{\glspostdescription}{} 
+\renewcommand{\glsnamefont}[1]{\textbf{#1}}
+
+\begin{document}
+
+\frenchspacing 
+
+
+\includepdf[pages={1}]{TCC_LUCAS_RIBEIRO_REV0.pdf}
+\includepdf[pages={2}]{TCC_LUCAS_RIBEIRO_REV0.pdf}
+\includepdf[pages={3}]{TemplatewordTCC.pdf}
+\includepdf[pages={4}]{TemplatewordTCC.pdf}
+\input{Geral/agradecimentos}
+\input{Geral/resumo}
+\input{Geral/abstract}
+
+% A lista de ilustrações e figuras é OBRIGATÓRIA SE tiver ILUSTRAÇÕES e FIGURAS
+% Em caso de quantidades reduzidas, podem ficar na mesma página
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+% Obrigatório SE TIVER TABELAS
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+% Obrigatório SE TIVER QUADROS
+% \pdfbookmark[0]{\listofquadrosname}{loq} 
+% %\listofquadros* % caso não tenha quadros, comente esta linha 
+% \cleardoublepage
+% Obrigatório se possuir SIGLAS...
+
+% LISTA DE SIGLAS AQUI EMBAIXO DESCOMENTAR ATÉ CLEAR DOUBLE PAGE
+\input{acronimos}
+
+% \printnoidxglossary[style=modsuper,type=\acronymtype,title={\listadesiglasname},nonumberlist]
+% % \printglossary[style=super, type=\acronymtype]
+% \cleardoublepage
+% % Observações:
+%   1. Colocar em ordem alfabética
+%   2. Para siglas em língua estrangeira, INCLUIR o significado em português
+%   3. Caso em determinado capítulo seja usado alguma Sigla, a mesma precisa ser descrita novamente, como na primeira vez que apareceu.
+
+% Obrigatório se possuir símbolos...
+\input{Geral/list_simbol}
+% Observações:
+%   1. Colocar em ordem alfabética
+%   2. Para símbolos em língua estrangeira, INCLUIR o significado em português
+%   3. Caso em determinado capítulo seja usado símbolo, o mesma precisa ser descrito novamente, como na primeira vez que apareceu.
+
+
+
+% Obs Geral: Se o número de símbolos e siglas for pequeno, juntar em uma única página.
+% \setlength{\cftbeforechapskip}{0pt}
+% \pdfbookmark[0]{\contentsname}{toc}
+
+\renewcommand{\cftchapterfont}{\normalfont\bfseries}
+\renewcommand{\cftsectionfont}{\normalfont}
+\renewcommand{\cftsubsectionfont}{\normalfont}
+\renewcommand{\cftsubsubsectionfont}{\normalfont}
+
+
+
+\settocdepth{subsubsection}
+\setsecnumdepth{subsubsection}
+\pdfbookmark[0]{\contentsname}{toc}
+
+
+
+% \addtocontents{toc}{\protect\setlength{\cftbeforechapskip}{0pt}}
+
+
+
+\tableofcontents*
+
+
+\cleardoublepage
+\setcounter{tocdepth}{2}
+\setcounter{table}{0}
+
+\textual
+
+\include{Capitulos/Cap1}
+\include{Capitulos/Cap2}
+\include{Capitulos/Cap3}
+\include{Capitulos/Cap4}
+\include{Capitulos/Cap5}
+
+
+\bookmarksetup{startatroot} 
+
+\postextual
+
+\bibliography{references}
+
+
+
+%\include{appendix}  AVALIAR SE VAI USAR
+
+\printindex
+
+\end{document}
