@@ -8,18 +8,18 @@
 
 
 \documentclass[
-	12pt,				
-	openright,			
-	oneside,		
-	a4paper,			
-	chapter=TITLE,		
-	section=TITLE,		
-	french,				
-	spanish,		
-	english,
-	brazil,
-    hidelinks,
-	]{abntex2}
+12pt,				
+openright,			
+oneside,		
+a4paper,			
+chapter=TITLE,		
+section=TITLE,		
+french,				
+spanish,		
+english,
+brazil,
+hidelinks,
+]{abntex2}
 
 \input{packages}
 
@@ -27,7 +27,7 @@
 \renewcommand{\familydefault}{\sfdefault}
 
 \newcommand*\circled[1]{\tikz[baseline=(char.base)]{
-            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+		\node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
 
 % \setlength\cftparskip{-2pt}
 % \setlength\cftbeforechapskip{0pt}
@@ -39,7 +39,7 @@
 % \makeatother
 
 %AJUSTE DO SUMARIO (ESPAÇAMENTO)
- 
+
 \renewcommand*\arraystretch{1.2} 
 
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -47,15 +47,15 @@
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
 \newglossarystyle{modsuper}{%
-  \glossarystyle{super}%
-  \renewcommand{\glsgroupskip}{}
-  
- \renewenvironment{theglossary}%
-  {
-    \begin{longtable}
-        {L{0.2\textwidth}L{0.8\textwidth}}}%
-    {\end{longtable}
-  }%
+	\glossarystyle{super}%
+	\renewcommand{\glsgroupskip}{}
+	
+	\renewenvironment{theglossary}%
+	{
+		\begin{longtable}
+			{L{0.2\textwidth}L{0.8\textwidth}}}%
+		{\end{longtable}
+	}%
 }
 
 \definecolor{blue}{RGB}{41,5,195}
@@ -73,7 +73,6 @@
 \definecolor{javadocblue}{rgb}{0.25,0.35,0.75} % 
 \definecolor{meucinza}{rgb}{0.5, 0.5, 0.5}
 
-\input{custom}
 
 \setsecheadstyle{\ABNTEXsectionfont\bfseries\fontsize{13}{15}\selectfont}
 \setsubsecheadstyle{\ABNTEXsubsectionfont\bfseries\fontsize{13}{15}\selectfont}
@@ -89,106 +88,124 @@
 
 \makenoidxglossaries
 \renewcommand*{\glsseeformat}[3][\seename]{\textit{#1}  
-\glsseelist{#2}}
+	\glsseelist{#2}}
 
 \renewcommand*{\glspostdescription}{} 
 \renewcommand{\glsnamefont}[1]{\textbf{#1}}
 
+%\makeatletter
+%\renewcommand{\textual}{%
+%	\pagestyle{plain}
+%}
+%\makeatother
+\makeatletter
+\renewcommand{\textual}{%
+	\pagestyle{meuhead}
+	\aliaspagestyle{chapter}{meuhead}
+	\aliaspagestyle{plain}{meuhead}
+}
+\renewcommand{\mainmatter}{\textual}
+\makeatother
+
 \begin{document}
+	\frenchspacing 
+	
+	
+%	\includepdf[pages={1}]{TCC_LUCAS_RIBEIRO_REV0.pdf}		Usar no pc Pessoal
+%	\includepdf[pages={2}]{TCC_LUCAS_RIBEIRO_REV0.pdf}
+%	\includepdf[pages={1}]{TCCLucas.pdf}		%Usar no pc Radix
+%	\includepdf[pages={2}]{TCCLucas.pdf}
+	\includepdf[pages=-]{capa_e_contra_capa.pdf}
+	\includepdf[pages={3}]{TemplatewordTCC.pdf}
+	\includepdf[pages={4}]{TemplatewordTCC.pdf}
+	\input{Geral/agradecimentos}
+	\input{Geral/resumo}
+	\input{Geral/abstract}
+	
+	% A lista de ilustrações e figuras é OBRIGATÓRIA SE tiver ILUSTRAÇÕES e FIGURAS
+	% Em caso de quantidades reduzidas, podem ficar na mesma página
+	\pdfbookmark[0]{\listfigurename}{lof}
+	\listoffigures*
+	\cleardoublepage
+	% Obrigatório SE TIVER TABELAS
+	\pdfbookmark[0]{\listtablename}{lot}
+	\listoftables*
+	\cleardoublepage
 
-\frenchspacing 
-
-
-\includepdf[pages={1}]{TCC_LUCAS_RIBEIRO_REV0.pdf}
-\includepdf[pages={2}]{TCC_LUCAS_RIBEIRO_REV0.pdf}
-\includepdf[pages={3}]{TemplatewordTCC.pdf}
-\includepdf[pages={4}]{TemplatewordTCC.pdf}
-\input{Geral/agradecimentos}
-\input{Geral/resumo}
-\input{Geral/abstract}
-
-% A lista de ilustrações e figuras é OBRIGATÓRIA SE tiver ILUSTRAÇÕES e FIGURAS
-% Em caso de quantidades reduzidas, podem ficar na mesma página
-\pdfbookmark[0]{\listfigurename}{lof}
-\listoffigures*
-\cleardoublepage
-% Obrigatório SE TIVER TABELAS
-\pdfbookmark[0]{\listtablename}{lot}
-\listoftables*
-\cleardoublepage
-% Obrigatório SE TIVER QUADROS
-% \pdfbookmark[0]{\listofquadrosname}{loq} 
-% %\listofquadros* % caso não tenha quadros, comente esta linha 
-% \cleardoublepage
-% Obrigatório se possuir SIGLAS...
-
-% LISTA DE SIGLAS AQUI EMBAIXO DESCOMENTAR ATÉ CLEAR DOUBLE PAGE
-\input{acronimos}
-
-% \printnoidxglossary[style=modsuper,type=\acronymtype,title={\listadesiglasname},nonumberlist]
-% % \printglossary[style=super, type=\acronymtype]
-% \cleardoublepage
-% % Observações:
-%   1. Colocar em ordem alfabética
-%   2. Para siglas em língua estrangeira, INCLUIR o significado em português
-%   3. Caso em determinado capítulo seja usado alguma Sigla, a mesma precisa ser descrita novamente, como na primeira vez que apareceu.
-
-% Obrigatório se possuir símbolos...
-\input{Geral/list_simbol}
-% Observações:
-%   1. Colocar em ordem alfabética
-%   2. Para símbolos em língua estrangeira, INCLUIR o significado em português
-%   3. Caso em determinado capítulo seja usado símbolo, o mesma precisa ser descrito novamente, como na primeira vez que apareceu.
-
-
-
-% Obs Geral: Se o número de símbolos e siglas for pequeno, juntar em uma única página.
-% \setlength{\cftbeforechapskip}{0pt}
-% \pdfbookmark[0]{\contentsname}{toc}
-
-\renewcommand{\cftchapterfont}{\normalfont\bfseries}
-\renewcommand{\cftsectionfont}{\normalfont}
-\renewcommand{\cftsubsectionfont}{\normalfont}
-\renewcommand{\cftsubsubsectionfont}{\normalfont}
-
-
-
-\settocdepth{subsubsection}
-\setsecnumdepth{subsubsection}
-\pdfbookmark[0]{\contentsname}{toc}
-
-
-
-% \addtocontents{toc}{\protect\setlength{\cftbeforechapskip}{0pt}}
-
-
-
-\tableofcontents*
-
-
-\cleardoublepage
-\setcounter{tocdepth}{2}
-\setcounter{table}{0}
-
-\textual
-
-\include{Capitulos/Cap1}
-\include{Capitulos/Cap2}
-\include{Capitulos/Cap3}
-\include{Capitulos/Cap4}
-\include{Capitulos/Cap5}
-
-
-\bookmarksetup{startatroot} 
-
-\postextual
-
-\bibliography{references}
-
-
-
-%\include{appendix}  AVALIAR SE VAI USAR
-
-\printindex
-
+	
+	
+	% Obrigatório SE TIVER QUADROS
+	% \pdfbookmark[0]{\listofquadrosname}{loq} 
+	% %\listofquadros* % caso não tenha quadros, comente esta linha 
+	% \cleardoublepage
+	% Obrigatório se possuir SIGLAS...
+	
+	% LISTA DE SIGLAS AQUI EMBAIXO DESCOMENTAR ATÉ CLEAR DOUBLE PAGE
+	\input{acronimos}
+	
+	% \printnoidxglossary[style=modsuper,type=\acronymtype,title={\listadesiglasname},nonumberlist]
+	% % \printglossary[style=super, type=\acronymtype]
+	% \cleardoublepage
+	% % Observações:
+	%   1. Colocar em ordem alfabética
+	%   2. Para siglas em língua estrangeira, INCLUIR o significado em português
+	%   3. Caso em determinado capítulo seja usado alguma Sigla, a mesma precisa ser descrita novamente, como na primeira vez que apareceu.
+	
+	% Obrigatório se possuir símbolos...
+	\input{Geral/list_simbol}
+	% Observações:
+	%   1. Colocar em ordem alfabética
+	%   2. Para símbolos em língua estrangeira, INCLUIR o significado em português
+	%   3. Caso em determinado capítulo seja usado símbolo, o mesma precisa ser descrito novamente, como na primeira vez que apareceu.
+	
+	
+	
+	% Obs Geral: Se o número de símbolos e siglas for pequeno, juntar em uma única página.
+	% \setlength{\cftbeforechapskip}{0pt}
+	% \pdfbookmark[0]{\contentsname}{toc}
+	
+	\renewcommand{\cftchapterfont}{\normalfont\bfseries}
+	\renewcommand{\cftsectionfont}{\normalfont}
+	\renewcommand{\cftsubsectionfont}{\normalfont}
+	\renewcommand{\cftsubsubsectionfont}{\normalfont}
+	
+	
+	
+	\settocdepth{subsubsection}
+	\setsecnumdepth{subsubsection}
+	\pdfbookmark[0]{\contentsname}{toc}
+	
+	
+	
+	% \addtocontents{toc}{\protect\setlength{\cftbeforechapskip}{0pt}}
+	
+	
+	
+	\tableofcontents*
+	
+	
+	\cleardoublepage
+	\setcounter{tocdepth}{2}
+	\setcounter{table}{0}
+	
+	\textual
+	\include{Capitulos/Cap1}
+	\include{Capitulos/Cap2}
+	\include{Capitulos/Cap3}
+	\include{Capitulos/Cap4}
+	\include{Capitulos/Cap5}
+	
+	
+	\bookmarksetup{startatroot} 
+	
+	\postextual
+	
+	\bibliography{references}
+	
+	
+	
+	%\include{appendix}  AVALIAR SE VAI USAR
+	
+	\printindex
+	
 \end{document}

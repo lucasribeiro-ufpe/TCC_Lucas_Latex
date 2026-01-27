@@ -55,6 +55,38 @@
 \renewcommand{\cftparagraphpagefont}{\bfseries\cftparagraphfont}
 
 
+
+
+%\makeatletter
+%\renewcommand{\textual}{%
+%	\pagestyle{abntheadings}%
+%	\nouppercaseheads%
+%	\bookmarksetup{startatroot}%
+%}
+%\renewcommand{\mainmatter}{\textual}
+%\makeatother
+%\makeatletter
+%\makeevenhead{abntheadings}{}{\thepage}{}
+%\makeoddhead{abntheadings}{}{\thepage}{}
+%\makeevenfoot{abntheadings}{}{}{}
+%\makeoddfoot{abntheadings}{}{}{}
+%\makeatother
+%CABEÇALHO COM NÚMERO NA PARTE SUPERIOR DIREITA DA TELA
+\makeatletter
+
+\makepagestyle{meuhead}
+\makeevenhead{meuhead}{}{}{\thepage}
+\makeoddhead {meuhead}{}{}{\thepage}
+\makeevenfoot{meuhead}{}{}{}
+\makeoddfoot {meuhead}{}{}{}
+
+% SEM LINHA
+\makeheadrule{meuhead}{\textwidth}{0pt}
+
+\makeatother
+
+%FIM DO CABEÇALHO
+
 % Sumario - ABNT-6027-2012
 
 \makeatletter
@@ -199,8 +231,6 @@
   \end{center}
 }
 \makeatother
-
-
 
 
 

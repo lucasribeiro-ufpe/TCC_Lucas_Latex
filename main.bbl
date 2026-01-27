@@ -17,6 +17,12 @@ Dispon{\'\i}vel em:
 {JURAFSKY, D.; MARTIN, J.~H. \emph{Speech and Language Processing}. 3. ed.
   [S.l.]: Stanford University, 2023. Draft.}
 
+\bibitem[{RASPBERRY PI FOUNDATION} 2024]{raspberrypi_foundation}
+\abntrefinfo{{RASPBERRY PI FOUNDATION}}{{RASPBERRY PI FOUNDATION}}{2024}
+{{RASPBERRY PI FOUNDATION}. \emph{Raspberry Pi Documentation}. 2024.
+Acesso em: 19 jan. 2026.
+Dispon{\'\i}vel em: \url{https://www.raspberrypi.com/documentation/}.}
+
 \bibitem[Russell e Norvig 2021]{russell2021}
 \abntrefinfo{Russell e Norvig}{RUSSELL; NORVIG}{2021}
 {RUSSELL, S.; NORVIG, P. \emph{Artificial Intelligence: A Modern Approach}. 4.
@@ -26,5 +32,16 @@ Dispon{\'\i}vel em:
 \abntrefinfo{TinyLlama}{TINYLLAMA}{2023}
 {TINYLLAMA. \emph{TinyLlama: An Open-Source Small Language Model}. 2023.
 Disponível em: https://github.com/jzhang38/TinyLlama.}
+
+\bibitem[Upton e Halfacree 2016]{RaspUserGuide}
+\abntrefinfo{Upton e Halfacree}{UPTON; HALFACREE}{2016}
+{UPTON, E.; HALFACREE, G. \emph{Raspberry Pi User Guide}. 4. ed. [S.l.]: John
+  Wiley \& Sons, 2016.}
+
+\bibitem[{WIKIPÉDIA} 2025]{wikipedia_raspberrypi}
+\abntrefinfo{{WIKIPÉDIA}}{{WIKIPÉDIA}}{2025}
+{{WIKIPÉDIA}. \emph{Raspberry Pi}. 2025.
+Acesso em: 19 jan. 2026.
+Dispon{\'\i}vel em: \url{https://pt.wikipedia.org/wiki/Raspberry\_Pi}.}
 
 \end{thebibliography}
