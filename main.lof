@@ -1,2 +1,12 @@
 \babel@toc {brazil}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Fluxo de interação Agente - Ambiente.}}{14}{figure.caption.15}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Fluxo de interação Agente - Ambiente.}}{15}{figure.caption.15}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Rasp funcionando como um PC.}}{17}{figure.caption.16}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Raspberry Pi 4 Model B.}}{18}{figure.caption.17}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Raspberry Pi 4 Model B - Descrição de \textit {GPIOS}.}}{19}{figure.caption.18}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Placa integrada Node MCU ESP8266.}}{19}{figure.caption.19}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Node MCU ESP8266 - Descrição de \textit {GPIOS}.}}{20}{figure.caption.20}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de programação do ESP8266.}}{21}{figure.caption.21}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Arquitetura de Aplicação do protocolo MQTT.}}{22}{figure.caption.22}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Raspberry Pi - Instalação de bibliotecas usando o \texttt {sudo pip3 install}.}}{23}{figure.caption.23}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Uso do eSpeak para TTS.}}{25}{figure.caption.24}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Ferramenta gráfica QT Designer.}}{26}{figure.caption.25}%

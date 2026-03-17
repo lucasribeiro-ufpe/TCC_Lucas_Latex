@@ -21,35 +21,37 @@
 \contentsline {section}{\numberline {1.4}Organização Textual}{13}{section.1.4}%
 \addvspace {-4\p@ }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{FUNDAMENTAÇÃO TEÓRICA}}{14}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Assistentes virtuais de voz}{14}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Modelo de Linguagem em Grande Escala (LLMs)}{14}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}O modelo TinyLlama}{15}{subsection.2.2.1}%
-\contentsline {section}{\numberline {2.3}Raspberry PI}{15}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Reconhecimento Automático de Fala (Speech-to-Text - STT)}{15}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Caso 1: \textbf {$R_g$} com valores variados e \textbf {$R_{hc}$=0}}{16}{subsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.1.1}Título da seção quaternária}{16}{subsubsection.2.4.1.1}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{FUNDAMENTAÇÃO TEÓRICA}}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Assistentes virtuais de voz}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Modelo de Linguagem em Grande Escala (LLMs)}{16}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}O modelo TinyLlama}{16}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Raspberry PI}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}O modelo PI 4B}{18}{subsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.1.1}Entradas e Saídas do Hardware}{18}{subsubsection.2.3.1.1}%
+\contentsline {section}{\numberline {2.4}ESP 8266}{19}{section.2.4}%
+\contentsline {section}{\numberline {2.5}O protocolo MQTT}{21}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Linguagem \textit {Python}}{22}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Reconhecimento Automático de Fala (Speech-to-Text - STT)}{23}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Biblioteca Vosk}{24}{subsection.2.7.1}%
+\contentsline {section}{\numberline {2.8}Síntese de Fala (Text-to-Speech - TTS)}{24}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}A ferramenta eSpeak NG }{24}{subsection.2.8.1}%
+\contentsline {section}{\numberline {2.9}Interface Gráfica do Usuário (\textit {GUI - Graphical User Interface})}{25}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}A biblioteca PyQt}{26}{subsection.2.9.1}%
+\contentsline {subsubsection}{\numberline {2.9.1.1}QT Designer}{26}{subsubsection.2.9.1.1}%
 \addvspace {-4\p@ }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{DESENVOLVIMENTO DO TRABALHO}}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Modelo de Silva}{17}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Modelo de Silva}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Modelo de Silva}{17}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Modelo de Silva}{17}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Modelo de Silva}{17}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Modelo de Silva}{17}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Modelo de Silva}{18}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Modelo de Silva}{18}{section.3.8}%
-\contentsline {section}{\numberline {3.9}conclusões parciais}{18}{section.3.9}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{METODOLOGIA}}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modelo}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Modelo}{27}{section.3.2}%
 \addvspace {-4\p@ }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados}}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Conclusões Parciais}{19}{section.4.1}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Resultados e Análises}}{28}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Conclusões Parciais}{28}{section.4.1}%
 \addvspace {-4\p@ }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusões}}{20}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Trabalhos futuros}{20}{section.5.1}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusões}}{29}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Trabalhos futuros}{29}{section.5.1}%
 \vspace {\cftbeforechapterskip }
 \addvspace {-4\p@ }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{21}{section*.19}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{30}{section*.29}%

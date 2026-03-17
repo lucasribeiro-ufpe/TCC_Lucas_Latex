@@ -5,6 +5,46 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[ANSI 2015]{tts_ansi}
+\abntrefinfo{ANSI}{ANSI}{2015}
+{ANSI. \emph{Text-to-Speech Technology (Speech Synthesis)}. 2015.
+  \url{https://blog.ansi.org/ansi/text-to-speech-technology-speech-synthesis/}.
+Acesso em: 13 mar. 2026.}
+
+\bibitem[Ardiansyah 2016]{ardiansyah2016narrator}
+\abntrefinfo{Ardiansyah}{ARDIANSYAH}{2016}
+{ARDIANSYAH, R.~A. Design of an electronic narrator on assistant robot for
+  blind people.
+v.~42, 2016.
+Dispon{\'\i}vel em:
+  \url{https://www.matec-conferences.org/articles/matecconf/pdf/2016/05/matecconf\_iccma2016\_03013.pdf}.}
+
+\bibitem[Cephei 2023]{vosk}
+\abntrefinfo{Cephei}{CEPHEI}{2023}
+{CEPHEI, A. \emph{Vosk Speech Recognition Toolkit}. 2023.
+  \url{https://alphacephei.com/vosk/}.
+Acesso em: 6 mar. 2026.}
+
+\bibitem[{DEV Community} 2025]{Dev_RaspPi}
+\abntrefinfo{{DEV Community}}{{DEV Community}}{2025}
+{{DEV Community}. \emph{What are the specifications of the GPIO pins in
+  Raspberry Pi 4 Model B?} 2025.
+Acesso em: 06 mar. 2026.
+Dispon{\'\i}vel em:
+  \url{https://dev.to/carolineee/what-are-the-specifications-of-the-gpio-pins-in-raspberry-pi-4-model-b-dje}.}
+
+\bibitem[{ESPEAK NG PROJECT} 2024]{espeakng_git}
+\abntrefinfo{{ESPEAK NG PROJECT}}{{ESPEAK NG PROJECT}}{2024}
+{{ESPEAK NG PROJECT}. \emph{eSpeak NG Speech Synthesizer}. 2024.
+  \url{https://github.com/espeak-ng/espeak-ng}.
+Acesso em: 14 mar. 2026.}
+
+\bibitem[FOUNDATION 2026]{Pip_rasp}
+\abntrefinfo{FOUNDATION}{FOUNDATION}{2026}
+{FOUNDATION, R.~P. \emph{Using pip on Raspberry PI}. 2026.
+  \url{https://projects.raspberrypi.org/en/projects/using-pip-on-raspberry-pi/}.
+Acesso em: 10 mar. 2026.}
+
 \bibitem[{IBM} 2024]{ibm_llm}
 \abntrefinfo{{IBM}}{{IBM}}{2024}
 {{IBM}. \emph{O que são modelos de linguagem de grande escala (LLMs)?} 2024.
@@ -12,10 +52,75 @@ Acesso em: 19 jan. 2026.
 Dispon{\'\i}vel em:
   \url{https://www.ibm.com/br-pt/think/topics/large-language-models}.}
 
+\bibitem[{IFRN} 2013]{raspberrypi_ifrn}
+\abntrefinfo{{IFRN}}{{IFRN}}{2013}
+{{IFRN}. \emph{Conhecendo o Raspberry Pi: Possibilidades de uso em contextos
+  educacionais e profissionais}. 2013.
+Acesso em: 09 mar. 2026.
+Dispon{\'\i}vel em:
+  \url{https://docentes.ifrn.edu.br/andrealmeida/palestras/ensol-conhecendo-o-raspberry-pi}.}
+
 \bibitem[Jurafsky e Martin 2023]{jurafsky2023}
 \abntrefinfo{Jurafsky e Martin}{JURAFSKY; MARTIN}{2023}
 {JURAFSKY, D.; MARTIN, J.~H. \emph{Speech and Language Processing}. 3. ed.
   [S.l.]: Stanford University, 2023. Draft.}
+
+\bibitem[Kaddour et al. 2023]{kaddour2023llm}
+\abntrefinfo{Kaddour et al.}{KADDOUR et al.}{2023}
+{KADDOUR, J.; HARRIS, J.; MOZES, M.; BRADLEY, H.; RAILEANU, R.; MCHARDY, R.
+  Challenges and applications of large language models.
+2023.
+Dispon{\'\i}vel em: \url{https://arxiv.org/pdf/2307.10169}.}
+
+\bibitem[Kustro 2022]{mqtt_site}
+\abntrefinfo{Kustro}{KUSTRO}{2022}
+{KUSTRO, G. \emph{Protocolo MQTT: O Que é, Como Funciona e Vantagens}. 2022.
+  \url{https://www.automacaoindustrial.info/mqtt/}.
+Acesso em: 13 mar. 2026.}
+
+\bibitem[Matos e Oliveira 2021]{DaSilvaMatos2021AnliseCA}
+\abntrefinfo{Matos e Oliveira}{MATOS; OLIVEIRA}{2021}
+{MATOS, D. R. D.~S.; OLIVEIRA, F.~K. de. Análise com assistentes virtuais
+  inteligentes: Um estudo de caso com o google assistente.
+\emph{RENOTE}, 2021.
+Dispon{\'\i}vel em: \url{https://api.semanticscholar.org/CorpusID:239226546}.}
+
+\bibitem[Maues 2019]{maues2019dissertacao}
+\abntrefinfo{Maues}{MAUES}{2019}
+{MAUES, M.~P.
+\emph{Um olhar sobre os assistentes virtuais personificados e a voz como
+  interface}.
+Disserta\c{c}\~{a}o (Dissertação de Mestrado) --- Pontifícia Universidade
+  Católica do Rio de Janeiro (PUC-Rio), Rio de Janeiro, 2019.
+Dispon{\'\i}vel em:
+  \url{https://www.dbd.puc-rio.br/pergamum/tesesabertas/1712444\_2019\_completo.pdf}.}
+
+\bibitem[{OASIS Message Queuing Telemetry Transport (MQTT) Technical Committee}
+  2019]{mqtt_v5_oasis}
+\abntrefinfo{{OASIS Message Queuing Telemetry Transport (MQTT) Technical
+  Committee}}{{OASIS Message Queuing Telemetry Transport (MQTT) Technical
+  Committee}}{2019}
+{{OASIS Message Queuing Telemetry Transport (MQTT) Technical Committee}.
+  \emph{MQTT Version 5.0}.
+[S.l.], 2019. Dispon{\'\i}vel em:
+  \url{http://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.pdf}.}
+
+\bibitem[PythonORG 2026]{python}
+\abntrefinfo{PythonORG}{PYTHONORG}{2026}
+{PYTHONORG. \emph{O tutorial do Python}. 2026.
+  \url{https://docs.python.org/pt-br/3/tutorial/index.html}.
+Acesso em: 6 mar. 2026.}
+
+\bibitem[QtGroup 2026]{qt_site}
+\abntrefinfo{QtGroup}{QTGROUP}{2026a}
+{QTGROUP. \emph{Qt Framework}. 2026.
+  \url{https://www.qt.io/development/qt-framework}.
+Acesso em: 9 mar. 2026.}
+
+\bibitem[QtGroup 2026]{qt_about}
+\abntrefinfo{QtGroup}{QTGROUP}{2026b}
+{QTGROUP. \emph{Sobre o Qt}. 2026. \url{https://wiki.qt.io/About_Qt}.
+Acesso em: 9 mar. 2026.}
 
 \bibitem[{RASPBERRY PI FOUNDATION} 2024]{raspberrypi_foundation}
 \abntrefinfo{{RASPBERRY PI FOUNDATION}}{{RASPBERRY PI FOUNDATION}}{2024}
@@ -23,10 +128,47 @@ Dispon{\'\i}vel em:
 Acesso em: 19 jan. 2026.
 Dispon{\'\i}vel em: \url{https://www.raspberrypi.com/documentation/}.}
 
+\bibitem[RaspbianORG 2026]{Raspbian}
+\abntrefinfo{RaspbianORG}{RASPBIANORG}{2026}
+{RASPBIANORG. \emph{Welcome to Raspbian}. 2026.
+  \url{https://www.raspbian.org/}.
+Acesso em: 9 mar. 2026.}
+
+\bibitem[Reidt 2022]{OS_rasp}
+\abntrefinfo{Reidt}{REIDT}{2022}
+{REIDT, T. \emph{Qual sistema operacional você deve escolher para o Raspberry
+  Pi 4}. 2022. \url{https://emteria.com/blog/raspberry-pi-4-os}.
+Acesso em: 10 mar. 2026.}
+
 \bibitem[Russell e Norvig 2021]{russell2021}
 \abntrefinfo{Russell e Norvig}{RUSSELL; NORVIG}{2021}
 {RUSSELL, S.; NORVIG, P. \emph{Artificial Intelligence: A Modern Approach}. 4.
   ed. Harlow: Pearson, 2021.}
+
+\bibitem[Salvator 2025]{Nvidia_tokens}
+\abntrefinfo{Salvator}{SALVATOR}{2025}
+{SALVATOR, D. \emph{Explaining Tokens — the Language and Currency of AI}.
+  2025. \url{https://blogs.nvidia.com/blog/ai-tokens-explained/}.
+Acesso em: 12 mar. 2026.}
+
+\bibitem[Systems 2020]{esp8266_manual}
+\abntrefinfo{Systems}{SYSTEMS}{2020}
+{SYSTEMS, E. \emph{Technical Reference Version 1.7}.
+[S.l.], 2020. Dispon{\'\i}vel em:
+  \url{https://documentation.espressif.com/esp8266-technical\_reference\_en.pdf}.}
+
+\bibitem[Systems 2023]{espressif_esp8266}
+\abntrefinfo{Systems}{SYSTEMS}{2023}
+{SYSTEMS, E. \emph{ESP8266EX, A cost-effective and highly integrated Wi-Fi MCU
+  for IoT applications}. 2023.
+  \url{https://www.espressif.com/en/products/socs/esp8266}.
+Acesso em: 15 mar. 2026.}
+
+\bibitem[ThonnyORG 2026]{thonny}
+\abntrefinfo{ThonnyORG}{THONNYORG}{2026}
+{THONNYORG. \emph{Thonny: Python IDE for beginners}. 2026.
+  \url{https://thonny.org/}.
+Acesso em: 9 mar. 2026.}
 
 \bibitem[TinyLlama 2023]{tinyllama2023}
 \abntrefinfo{TinyLlama}{TINYLLAMA}{2023}
@@ -38,10 +180,22 @@ Disponível em: https://github.com/jzhang38/TinyLlama.}
 {UPTON, E.; HALFACREE, G. \emph{Raspberry Pi User Guide}. 4. ed. [S.l.]: John
   Wiley \& Sons, 2016.}
 
-\bibitem[{WIKIPÉDIA} 2025]{wikipedia_raspberrypi}
-\abntrefinfo{{WIKIPÉDIA}}{{WIKIPÉDIA}}{2025}
-{{WIKIPÉDIA}. \emph{Raspberry Pi}. 2025.
-Acesso em: 19 jan. 2026.
-Dispon{\'\i}vel em: \url{https://pt.wikipedia.org/wiki/Raspberry\_Pi}.}
+\bibitem[Varas et al. 2023]{varas2023llm}
+\abntrefinfo{Varas et al.}{VARAS et al.}{2023}
+{VARAS, J.; CORONEL, B.~V.; VILLAGRáN, I.; ESCALONA, G.; HERNANDEZ, R.;
+  SCHUIT, G.; DURáN, V.; LAGOS-VILLASECA, A.; JARRY, C.; NEYEM, A.; ACHURRA,
+  P. Inovações no treinamento cirúrgico: explorando o papel da inteligência
+  artificial e dos grandes modelos de linguagem (llm).
+\emph{Revista do Colégio Brasileiro de Cirurgiões}, v.~50, 2023.
+Dispon{\'\i}vel em:
+  \url{https://www.scielo.br/j/rcbc/a/KVsSNSfHQhkGJjDMhkhwrKk/?format=pdf&lang=pt}.}
+
+\bibitem[Vujović e Maksimović 2015]{VUJOVIC2015153}
+\abntrefinfo{Vujović e Maksimović}{VUJOVIć; MAKSIMOVIć}{2015}
+{VUJOVIć, V.; MAKSIMOVIć, M. Raspberry pi as a sensor web node for home
+  automation.
+\emph{Computers \& Electrical Engineering}, v.~44, 2015.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/S0045790615000257}.}
 
 \end{thebibliography}
